@@ -1,18 +1,25 @@
-## Getting Started
+# Conta Terminal - Projeto Bootcamp Santander
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto desenvolvido durante o Bootcamp de Java da DIO em parceria com o Santander. O objetivo é criar um programa simples que simula a criação de uma conta bancária, no qual o usuário informa seu nome, agência, número da conta e saldo.
 
-## Folder Structure
+## Funcionalidades
+- Solicita os dados do usuário (nome, agência, número da conta e saldo).
+- Exibe uma mensagem com essas informações.
 
-The workspace contains two folders by default, where:
+## Tecnologias usadas
+- **Java**
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como executar
+1. Clone o repositório: https://github.com/daniellebelo/infos-de-conta-bancaria-atraves-do-console
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. Abra o projeto no seu editor de código (VS Code, IntelliJ, etc.).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3. Compile e execute o código:
 
-## Dependency Management
+javac ContaTerminal.java
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. Execute o programa:
+
+java ContaTerminal
+
+- Certifique-se de ter o **JDK (Java Development Kit)** instalado na sua máquina antes de compilar o código.
